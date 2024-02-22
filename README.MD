@@ -12,3 +12,12 @@
 - Comentar cada uno de los métodos puntos para visualizar cada uno de los resultados.
 
 - Los scripts sql se encuentra en el archivo *Respuestas.sql*.
+
+- Crear un archivo appsettings.json con el contenido: 
+~~~
+{
+    "ConnectionStrings": {
+        "ConnectionDatabase": "Server={NOMBRE_SERVIDOR},{PUERTO};Database={NOMBRE_DB};User Id={USUARIO};Password={CONTRASEÑA}"
+    }
+}
+~~~
